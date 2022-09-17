@@ -21,5 +21,5 @@ int main () {
   int FahrenheitTemperature = 65;
   float CelsiusTemperature;
   CelsiusTemperature=((float)FahrenheitTemperature-32)*5/9;
-  printf("%.1f\n", CelsiusTemperature);
+  printf("%dF = %.1fC\n", FahrenheitTemperature, CelsiusTemperature);
 }
