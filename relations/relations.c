@@ -23,4 +23,12 @@ int main () {
     printf("10 == 10: %d\n", 10 == 10);
     printf("8 == 010: %d\n", 8 == 010);
     printf("16 == 0x10: %d\n", 16 == 0x10);
+    printf("259 == 0x103: %d\n", 259 == 0x103);
+    printf("159 == 0303: %d\n", 159 == 0303);
+    printf("255 == 0xff: %d\n", 255 == 0xff);
+    printf("-1 == 0xffff: %d\n", -1 == 0xffff);
+    printf("-1 == 0xffffffff: %d\n", -1 == 0xffffffff);
+    printf("-1 == 0xffffffffu: %d\n", -1 == 0xffffffffu);
+    printf("-1 > 1U: %d\n", -1 > 1U);
+
 }
