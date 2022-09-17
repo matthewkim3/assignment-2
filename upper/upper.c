@@ -28,5 +28,6 @@ We haven't learned if/else statements yet so you must do this using the ternary 
 int main () {
     char character = 'd';
     char upperCase;
+    upperCase=(character >= 'a' && character <= 'z')?(character + ('A' - 'a')):(upperCase = character);
     printf("%c\n", upperCase);
 }
