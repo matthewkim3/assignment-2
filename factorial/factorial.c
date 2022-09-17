@@ -11,6 +11,6 @@ Hint: To print a variable x, with type long int, you can use printf("%ld\n", x);
 #include <stdio.h> /* printf */
 
 int main () {
-    long int factorial;
-    printf("%ld\n", factorial);
+    long long int factorial=15L*14L*13L*12L*11*10*9*8*7*6*5*4*3*2*1;
+    printf("%lld\n", factorial);
 }
