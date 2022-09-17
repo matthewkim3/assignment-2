@@ -10,5 +10,18 @@ This program:
 */
 
 int main () {
-    // Put your code here
+  int bit0;
+  int bit1;
+  int bit2;
+  int bit3;
+  int bit4;
+  int bit5;
+  int bit6;
+  int bit7;
+
+  float temperature=32.0;
+  double voltage=5.0;
+
+  char firstInitial='m';
+  char lastInitial='k';
 }
