@@ -29,8 +29,8 @@ prints 2.0
 #include <math.h> /* sqrt */
 
 int main () {
-    int a = 1;
-    int b = 2;
+    int a = -1;
+    int b = 1;
     int c = 1;
     float root1;
     float root2;
