@@ -20,7 +20,23 @@ one case where the bitwise operators are easier to read.
 #include <stdio.h> /* printf */
 
 int main () {
-    char c = 'A';
+    char c = 'Z';
     int bit0, bit1, bit2, bit3, bit4, bit5, bit6, bit7;
+    bit0=c&1;
+    c=c>>1;
+    bit1=c&1;
+    c=c>>1;
+    bit2=c&1;
+    c=c>>1;
+    bit3=c&1;
+    c=c>>1;
+    bit4=c&1;
+    c=c>>1;
+    bit5=c&1;
+    c=c>>1;
+    bit6=c&1;
+    c=c>>1;
+    bit7=c&1;
+    
     printf("%d%d%d%d%d%d%d%d\n", bit7, bit6, bit5, bit4, bit3, bit2, bit1, bit0);
 }
