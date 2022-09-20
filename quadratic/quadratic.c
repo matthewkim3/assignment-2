@@ -34,16 +34,14 @@ int main () {
     int c = 1;
     float root1;
     float root2;
-    root1=(-1*(float)b-sqrt((float)b*b-4*a*c))/(2*a);
-    root2=(-1*(float)b+sqrt((float)b*b-4*a*c))/(2*a);
+    root1=(-1*(float)b-sqrt(b*b-4*a*c))/(2*a);
+    root2=(-1*(float)b+sqrt(b*b-4*a*c))/(2*a);
   if(root1>root2){
     printf("%f\n", root2);
     printf("%f\n", root1);
-  }else if(root1<root2){
-    printf("%f\n", root1);
-    printf("%f\n", root2);
-  }else{
+  }else if(root1<=root2){
     printf("%f\n", root1);
     printf("%f\n", root2);
   }
+  
 }
